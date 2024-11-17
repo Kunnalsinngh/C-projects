@@ -2,6 +2,10 @@
 #include<stdlib.h>
 
 int main(){
+
+    printf("WELCOME TO THE GAME \n");
+
+    printf( "\nin this game the computer generates a random number and asks the player to guess it. When the user guesses the correct number, the program displays the number of guesses the player used to arrive at the number. \n\n");
   
   int randomnum = ("%d\n",(rand()%100)+1);
   int guess;
@@ -29,6 +33,7 @@ int main(){
   }
 
   printf("congats\n");
+  printf("you've cleared the game. \n");
   printf("you have guessed the number in %d attempts\n",no_of_guess);
   
   
